@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PAC Desarrollo M08</string>
+    <string name="boton_BBDD">BBDD</string>
+    <string name="boton_Camara">Cámara</string>
+    <string name="boton_Imagenes">Galería</string>
+    <string name="volver">Volver</string>
+    <string name="titulo_galeria">Mejores discos</string>
+    <string name="n_album">Nombre Álbum</string>
+    <string name="album_anno">Año</string>
+    <string name="artista">Artista</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nombre_cancion">Nombre</string>
+    <string name="add_cancion">Añadir canción</string>
+    <string name="titulo_musica">Música</string>
+    <string name="busacr_cancion">Buscar música</string>
+    <string name="dialog_message">¿Seguro que quieres borrar la canción?</string>
+    <string name="dialog_title">Borrar</string>
+    <string name="dialog_yes">Sí</string>
+    <string name="dialog_no">No</string>
+    <string name="cancion_borrada">Canción eliminada</string>
+    <string name="titulo_permiso_alert">Permiso denegado</string>
+    <string name="men_permiso_ajuste">¿Desea cambiar los permisos desde ajustes?</string>
+    <string name="Lista_canciones">Lista de canciones</string>
+    <string name="Buscar">Buscar</string>
+    <string name="activity_BBDD">Estas en la Activity BBDD</string>
+    <string name="cancion_add">"Canción añadida "</string>
+    <string name="cancelado">Cancelado</string>
+</resources>

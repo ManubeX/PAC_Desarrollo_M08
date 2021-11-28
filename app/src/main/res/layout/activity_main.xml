@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="289dp"
+        android:layout_height="289dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205"
+        app:srcCompat="@drawable/img_music" />
+
+    <Button
+        android:id="@+id/btBBDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="216dp"
+        android:text="@string/boton_BBDD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play" />
+
+    <Button
+        android:id="@+id/btCamara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:text="@string/boton_Camara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btGaleria"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toEndOf="@+id/btBBDD"
+        app:layout_constraintTop_toBottomOf="@+id/play" />
+
+    <Button
+        android:id="@+id/btGaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/boton_Imagenes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play" />
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintEnd_toStartOf="@+id/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imagen"
+        app:srcCompat="@drawable/circle_pause" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="232dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imagen"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/circle_play"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/stop"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@+id/play"
+        app:layout_constraintTop_toTopOf="@+id/imagen"
+        app:srcCompat="@drawable/circle_stop" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
